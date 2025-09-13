@@ -38,7 +38,6 @@ export default function ModalBasedAlerts() {
           Danger Alert
         </button>
       </div>
-      {/* Success Modal */}
       <Modal
         isOpen={successModal.isOpen}
         onClose={successModal.closeModal}
@@ -97,7 +96,6 @@ export default function ModalBasedAlerts() {
           </div>
         </div>
       </Modal>
-      {/* Info Modal */}
       <Modal
         isOpen={infoModal.isOpen}
         onClose={infoModal.closeModal}
@@ -157,7 +155,6 @@ export default function ModalBasedAlerts() {
           </div>
         </div>
       </Modal>
-      {/* Warning Modal */}
       <Modal
         isOpen={warningModal.isOpen}
         onClose={warningModal.closeModal}
@@ -217,7 +214,6 @@ export default function ModalBasedAlerts() {
           </div>
         </div>
       </Modal>
-      {/* Error Modal */}
       <Modal
         isOpen={errorModal.isOpen}
         onClose={errorModal.closeModal}
