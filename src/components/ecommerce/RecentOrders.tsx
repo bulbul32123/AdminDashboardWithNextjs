@@ -8,7 +8,7 @@ import {
 import Badge from "../ui/badge/Badge";
 import Image from "next/image";
 interface Product {
-  id: number;t
+  id: number;
   name: string; 
   variants: string; 
   category: string; 
