@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+.dropdown-toggle@import 'tailwindcss';
 
 @custom-variant dark (&:is(.dark *));
 
